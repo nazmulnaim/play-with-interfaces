@@ -1,0 +1,9 @@
+# Default ignored files
+
+.idea/
+.history/
+.settings/
+.vscode/
+target/
+out/
+*.iml

@@ -340,14 +340,14 @@ public class Try03 {
             System.out.println(validatorAB.reason(abB));
         }
 
-        AB abA3 = new AB();
-        abA3.setField1(new A());
-        abA3.setField2(new B());
+        AB abAB = new AB();
+        abAB.setField1(new A());
+        abAB.setField2(new B());
 
         ValidatorABValidBothAB validBothAB = new ValidatorABValidBothAB(validatorA, validatorB);
         validatorAB = new ValidatorAB(validBothAB);
-        if(!validatorAB.valid(abA3)) {
-            System.out.println(validatorAB.reason(abA3));
+        if(!validatorAB.valid(abAB)) {
+            System.out.println(validatorAB.reason(abAB));
         }
     }
 }
